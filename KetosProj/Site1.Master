@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="KetosProj.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <link rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+<!-- Save for Web Slices (HomePage.psd) -->
+<div id="Table_01">
+	<div id="HomePage-01">
+		<img src="images/HomePage_01.gif" width="517" height="106" alt="">
+	</div>
+	<div id="HomePage-02">
+		<img src="images/HomePage_02.gif" width="507" height="59" alt="">
+	</div>
+    <div id="HomePage-03">
+		<img src="images/HomePage_03.gif" width="5" height="100" alt="">
+	</div>
+	<div id="HomePage-04">
+		<a href="Home.aspx"><img src="images/HomePage_04.gif" width="117" height="47" alt=""></a>
+	</div>
+    <div id="HomePage-05">
+		<img src="images/HomePage_05.gif" width="11" height="47" alt="">
+	</div>
+	<div id="HomePage-06">
+		<a href="About.aspx"><img src="images/HomePage_06.gif" alt="" width="117" height="47" border="0"></a>
+	</div>
+	<div id="HomePage-07">
+		<img src="images/HomePage_07.gif" width="10" height="47" alt="">
+	</div>
+    <div id="HomePage-08">
+		<a href="Contact.aspx"><img src="images/HomePage_08.gif" width="117" height="47" alt=""></a>
+	</div>
+	<div id="HomePage-09">
+		<img src="images/HomePage_09.gif" width="8" height="47" alt="">
+	</div>
+	<div id="HomePage-10">
+		<a href="Services.aspx"><img src="images/HomePage_10.gif" width="117" height="47" alt=""></a>
+	</div>
+    <div id="HomePage-11">
+		<img src="images/HomePage_11.gif" width="5" height="615" alt="">
+	</div>
+    <div id="HomePage-12">
+		<img src="images/HomePage_12.gif" width="28" height="6" alt="">
+	</div>
+    <div id="HomePage-13">
+		<font><a href="LogIn.aspx" style="color: #000000">Log In</a> </font>| <font><a href="SignUp.aspx" style="color: #000000">  Sign Up</a></font>
+	</div>
+    <div id="HomePage-14">
+		<img src="images/HomePage_14.gif" width="357" height="6" alt="">
+	</div>
+	<div id="HomePage-15">
+		<img src="images/HomePage_15.gif" width="497" height="53" alt="">
+	</div>
+	<div id="HomePage-16">
+		<img src="images/HomePage_16.gif" width="28" height="562" alt="">
+	</div>
+	<div id="HomePage-17">
+		<img src="images/HomePage_17.gif" width="357" height="47" alt="">
+	</div>
+	<div id="HomePage-18">
+		<img src="images/HomePage_18.gif" width="132" height="42" alt="">
+	</div>
+	<div id="HomePage-19">
+		<img src="images/HomePage_19.gif" width="222" height="18" alt="">
+	</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    <div id="HomePage-57">
+		<img src="images/HomePage_57.gif" width="55" height="13" alt="">
+	</div>
+	<div id="HomePage-58">
+		<img src="images/HomePage_58.gif" width="1024" height="64" alt="">
+	</div>
+    <div id="HomePage-59" >
+		<font>Copyright © 2013</font>
+	</div>
+	<div id="HomePage-60">
+		<img src="images/HomePage_60.gif" width="714" height="30" alt="">
+	</div>
+	<div id="HomePage-61">
+		<font><a href="Sitemap.aspx" style="color: #000000">SiteMap</a> | <a href="Legal.aspx" style="color: #000000">Legal</a></font>
+	</div>
+	<div id="HomePage-62">
+		<img src="images/HomePage_62.gif" width="29" height="30" alt="">
+	</div>
+</div>
+    </div>
+    </form>
+</body>
+</html>

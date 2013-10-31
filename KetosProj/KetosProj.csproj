@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75E0AC28-567F-4758-8DB6-89A33C86E8CE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KetosProj</RootNamespace>
+    <AssemblyName>KetosProj</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\AboutPage_01.gif" />
+    <Content Include="images\AboutPage_02.gif" />
+    <Content Include="images\AboutPage_03.gif" />
+    <Content Include="images\AboutPage_04.gif" />
+    <Content Include="images\AboutPage_05.gif" />
+    <Content Include="images\AboutPage_06.gif" />
+    <Content Include="images\AboutPage_07.gif" />
+    <Content Include="images\AboutPage_08.gif" />
+    <Content Include="images\AboutPage_09.gif" />
+    <Content Include="images\AboutPage_10.gif" />
+    <Content Include="images\AboutPage_11.gif" />
+    <Content Include="images\AboutPage_12.gif" />
+    <Content Include="images\AboutPage_13.gif" />
+    <Content Include="images\AboutPage_14.gif" />
+    <Content Include="images\AboutPage_15.gif" />
+    <Content Include="images\AboutPage_16.gif" />
+    <Content Include="images\AboutPage_17.gif" />
+    <Content Include="images\AboutPage_18.gif" />
+    <Content Include="images\AboutPage_19.gif" />
+    <Content Include="images\AboutPage_20.gif" />
+    <Content Include="images\AboutPage_21.gif" />
+    <Content Include="images\AboutPage_22.gif" />
+    <Content Include="images\AboutPage_23.gif" />
+    <Content Include="images\AboutPage_24.gif" />
+    <Content Include="images\AboutPage_25.gif" />
+    <Content Include="images\AboutPage_26.gif" />
+    <Content Include="images\AboutPage_27.gif" />
+    <Content Include="images\AboutPage_28.gif" />
+    <Content Include="images\AboutPage_29.gif" />
+    <Content Include="images\AboutPage_30.gif" />
+    <Content Include="images\AboutPage_31.gif" />
+    <Content Include="images\AboutPage_32.gif" />
+    <Content Include="images\AboutPage_33.gif" />
+    <Content Include="images\AboutPage_34.gif" />
+    <Content Include="images\AboutPage_35.gif" />
+    <Content Include="images\AboutPage_36.gif" />
+    <Content Include="images\AboutPage_37.gif" />
+    <Content Include="images\AboutPage_38.gif" />
+    <Content Include="images\AboutPage_39.gif" />
+    <Content Include="images\AboutPage_40.gif" />
+    <Content Include="images\AboutPage_41.gif" />
+    <Content Include="images\AboutPage_42.gif" />
+    <Content Include="images\AboutPage_43.gif" />
+    <Content Include="images\AboutPage_44.gif" />
+    <Content Include="images\AboutPage_45.gif" />
+    <Content Include="images\AboutPage_46.gif" />
+    <Content Include="images\AboutPage_47.gif" />
+    <Content Include="images\AboutPage_48.gif" />
+    <Content Include="images\AboutPage_49.gif" />
+    <Content Include="images\AboutPage_50.gif" />
+    <Content Include="images\AboutPage_51.gif" />
+    <Content Include="images\AboutPage_52.gif" />
+    <Content Include="images\AboutPage_53.gif" />
+    <Content Include="images\AboutPage_54.gif" />
+    <Content Include="images\AboutPage_55.gif" />
+    <Content Include="images\ContactPage_01.gif" />
+    <Content Include="images\ContactPage_02.gif" />
+    <Content Include="images\ContactPage_03.gif" />
+    <Content Include="images\ContactPage_04.gif" />
+    <Content Include="images\ContactPage_05.gif" />
+    <Content Include="images\ContactPage_06.gif" />
+    <Content Include="images\ContactPage_07.gif" />
+    <Content Include="images\ContactPage_08.gif" />
+    <Content Include="images\ContactPage_09.gif" />
+    <Content Include="images\ContactPage_10.gif" />
+    <Content Include="images\ContactPage_11.gif" />
+    <Content Include="images\ContactPage_12.gif" />
+    <Content Include="images\ContactPage_13.gif" />
+    <Content Include="images\ContactPage_14.gif" />
+    <Content Include="images\ContactPage_15.gif" />
+    <Content Include="images\ContactPage_16.gif" />
+    <Content Include="images\ContactPage_17.gif" />
+    <Content Include="images\ContactPage_18.gif" />
+    <Content Include="images\ContactPage_19.gif" />
+    <Content Include="images\ContactPage_20.gif" />
+    <Content Include="images\ContactPage_21.gif" />
+    <Content Include="images\ContactPage_22.gif" />
+    <Content Include="images\ContactPage_23.gif" />
+    <Content Include="images\ContactPage_24.gif" />
+    <Content Include="images\ContactPage_25.gif" />
+    <Content Include="images\ContactPage_26.gif" />
+    <Content Include="images\ContactPage_27.gif" />
+    <Content Include="images\ContactPage_28.gif" />
+    <Content Include="images\ContactPage_29.gif" />
+    <Content Include="images\ContactPage_30.gif" />
+    <Content Include="images\ContactPage_31.gif" />
+    <Content Include="images\ContactPage_32.gif" />
+    <Content Include="images\ContactPage_33.gif" />
+    <Content Include="images\ContactPage_34.gif" />
+    <Content Include="images\ContactPage_35.gif" />
+    <Content Include="images\ContactPage_36.gif" />
+    <Content Include="images\ContactPage_37.gif" />
+    <Content Include="images\ContactPage_38.gif" />
+    <Content Include="images\ContactPage_39.gif" />
+    <Content Include="images\ContactPage_40.gif" />
+    <Content Include="images\ContactPage_41.gif" />
+    <Content Include="images\ContactPage_42.gif" />
+    <Content Include="images\ContactPage_43.gif" />
+    <Content Include="images\ContactPage_44.gif" />
+    <Content Include="images\ContactPage_45.gif" />
+    <Content Include="images\ContactPage_46.gif" />
+    <Content Include="images\ContactPage_47.gif" />
+    <Content Include="images\ContactPage_48.gif" />
+    <Content Include="images\ContactPage_49.gif" />
+    <Content Include="images\ContactPage_50.gif" />
+    <Content Include="images\ContactPage_51.gif" />
+    <Content Include="images\ContactPage_52.gif" />
+    <Content Include="images\HomePage_01.gif" />
+    <Content Include="images\HomePage_02.gif" />
+    <Content Include="images\HomePage_03.gif" />
+    <Content Include="images\HomePage_04.gif" />
+    <Content Include="images\HomePage_05.gif" />
+    <Content Include="images\HomePage_06.gif" />
+    <Content Include="images\HomePage_07.gif" />
+    <Content Include="images\HomePage_08.gif" />
+    <Content Include="images\HomePage_09.gif" />
+    <Content Include="images\HomePage_10.gif" />
+    <Content Include="images\HomePage_11.gif" />
+    <Content Include="images\HomePage_12.gif" />
+    <Content Include="images\HomePage_13.gif" />
+    <Content Include="images\HomePage_14.gif" />
+    <Content Include="images\HomePage_15.gif" />
+    <Content Include="images\HomePage_16.gif" />
+    <Content Include="images\HomePage_17.gif" />
+    <Content Include="images\HomePage_18.gif" />
+    <Content Include="images\HomePage_19.gif" />
+    <Content Include="images\HomePage_20.gif" />
+    <Content Include="images\HomePage_21.gif" />
+    <Content Include="images\HomePage_22.gif" />
+    <Content Include="images\HomePage_23.gif" />
+    <Content Include="images\HomePage_24.gif" />
+    <Content Include="images\HomePage_25.gif" />
+    <Content Include="images\HomePage_26.gif" />
+    <Content Include="images\HomePage_27.gif" />
+    <Content Include="images\HomePage_28.gif" />
+    <Content Include="images\HomePage_29.gif" />
+    <Content Include="images\HomePage_30.gif" />
+    <Content Include="images\HomePage_31.gif" />
+    <Content Include="images\HomePage_32.gif" />
+    <Content Include="images\HomePage_33.gif" />
+    <Content Include="images\HomePage_34.gif" />
+    <Content Include="images\HomePage_35.gif" />
+    <Content Include="images\HomePage_36.gif" />
+    <Content Include="images\HomePage_37.gif" />
+    <Content Include="images\HomePage_38.gif" />
+    <Content Include="images\HomePage_39.gif" />
+    <Content Include="images\HomePage_40.gif" />
+    <Content Include="images\HomePage_41.gif" />
+    <Content Include="images\HomePage_42.gif" />
+    <Content Include="images\HomePage_43.gif" />
+    <Content Include="images\HomePage_44.gif" />
+    <Content Include="images\HomePage_45.gif" />
+    <Content Include="images\HomePage_46.gif" />
+    <Content Include="images\HomePage_47.gif" />
+    <Content Include="images\HomePage_48.gif" />
+    <Content Include="images\HomePage_49.gif" />
+    <Content Include="images\HomePage_50.gif" />
+    <Content Include="images\HomePage_51.gif" />
+    <Content Include="images\HomePage_52.gif" />
+    <Content Include="images\HomePage_53.gif" />
+    <Content Include="images\HomePage_54.gif" />
+    <Content Include="images\HomePage_55.gif" />
+    <Content Include="images\HomePage_56.gif" />
+    <Content Include="images\HomePage_57.gif" />
+    <Content Include="images\HomePage_58.gif" />
+    <Content Include="images\HomePage_59.gif" />
+    <Content Include="images\HomePage_60.gif" />
+    <Content Include="images\HomePage_61.gif" />
+    <Content Include="images\HomePage_62.gif" />
+    <Content Include="images\ServicesPages_01.gif" />
+    <Content Include="images\ServicesPages_02.gif" />
+    <Content Include="images\ServicesPages_03.gif" />
+    <Content Include="images\ServicesPages_04.gif" />
+    <Content Include="images\ServicesPages_05.gif" />
+    <Content Include="images\ServicesPages_06.gif" />
+    <Content Include="images\ServicesPages_07.gif" />
+    <Content Include="images\ServicesPages_08.gif" />
+    <Content Include="images\ServicesPages_09.gif" />
+    <Content Include="images\ServicesPages_10.gif" />
+    <Content Include="images\ServicesPages_11.gif" />
+    <Content Include="images\ServicesPages_12.gif" />
+    <Content Include="images\ServicesPages_13.gif" />
+    <Content Include="images\ServicesPages_14.gif" />
+    <Content Include="images\ServicesPages_15.gif" />
+    <Content Include="images\ServicesPages_16.gif" />
+    <Content Include="images\ServicesPages_17.gif" />
+    <Content Include="images\ServicesPages_18.gif" />
+    <Content Include="images\ServicesPages_19.gif" />
+    <Content Include="images\ServicesPages_20.gif" />
+    <Content Include="images\ServicesPages_21.gif" />
+    <Content Include="images\ServicesPages_22.gif" />
+    <Content Include="images\ServicesPages_23.gif" />
+    <Content Include="images\ServicesPages_24.gif" />
+    <Content Include="images\ServicesPages_25.gif" />
+    <Content Include="images\ServicesPages_26.gif" />
+    <Content Include="images\ServicesPages_27.gif" />
+    <Content Include="images\ServicesPages_28.gif" />
+    <Content Include="images\ServicesPages_29.gif" />
+    <Content Include="images\ServicesPages_30.gif" />
+    <Content Include="images\ServicesPages_31.gif" />
+    <Content Include="images\ServicesPages_32.gif" />
+    <Content Include="images\ServicesPages_33.gif" />
+    <Content Include="images\ServicesPages_34.gif" />
+    <Content Include="images\ServicesPages_35.gif" />
+    <Content Include="images\ServicesPages_36.gif" />
+    <Content Include="images\ServicesPages_37.gif" />
+    <Content Include="images\ServicesPages_38.gif" />
+    <Content Include="images\ServicesPages_39.gif" />
+    <Content Include="images\ServicesPages_40.gif" />
+    <Content Include="images\ServicesPages_41.gif" />
+    <Content Include="images\ServicesPages_42.gif" />
+    <Content Include="images\ServicesPages_43.gif" />
+    <Content Include="images\ServicesPages_44.gif" />
+    <Content Include="images\ServicesPages_45.gif" />
+    <Content Include="images\ServicesPages_46.gif" />
+    <Content Include="images\ServicesPages_47.gif" />
+    <Content Include="images\ServicesPages_48.gif" />
+    <Content Include="Legal.aspx" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="Sitemap.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legal.aspx.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legal.aspx.designer.cs">
+      <DependentUpon>Legal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sitemap.aspx.cs">
+      <DependentUpon>Sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sitemap.aspx.designer.cs">
+      <DependentUpon>Sitemap.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\Tommy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:11240/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

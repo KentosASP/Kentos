@@ -1,0 +1,5 @@
+C:\Users\Thomas\documents\visual studio 2012\Projects\KetosProj\KetosProj\bin\KetosProj.dll
+C:\Users\Thomas\documents\visual studio 2012\Projects\KetosProj\KetosProj\bin\KetosProj.pdb
+C:\Users\Thomas\documents\visual studio 2012\Projects\KetosProj\KetosProj\obj\Release\KetosProj.dll
+C:\Users\Thomas\documents\visual studio 2012\Projects\KetosProj\KetosProj\obj\Release\KetosProj.pdb
+C:\Users\Thomas\documents\visual studio 2012\Projects\KetosProj\KetosProj\obj\Release\KetosProj.csprojResolveAssemblyReference.cache
